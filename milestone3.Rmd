@@ -79,7 +79,9 @@ Currently all the data per race looks similar to this.
 
 ### Plan for obtaining future data
 
-I need to obtain the number of each industry per county. I plan to obtain this data thru Google maps, perhaps through webscraping unless I find an easier way to do it.
+I need to obtain the number of each industry per county. I plan to obtain this data thru Google maps, perhaps through webscraping unless I find an easier way to do it.  
+
+I also need to clean up the data further by renaming columns to designate the columns as subcategories rather than census codes.
 
 
 ## Plans
