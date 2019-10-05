@@ -1,0 +1,22 @@
+---
+title: "Milestone #3"
+author: "Gayatri Balasubramanian"
+date: "10/4/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+# default settings
+
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+## Plan
+
+I have data obtained from [Census Reporter]("censusreporter.org") that displays by Indiana county the population of each of the respective races: Caucasian, Black, Asian (broken down by subcategory), Pacific Islander (broken down by subcategory), Hispanic (broken down by subcategory), and Native American (broken down by subcategory). Limitations of this data are that the Census does not record Caucasion or Black subcategories, so European and African ethnicities are not recorded.
+
+## Diplaying some data
+
+with at least some of your raw data or code which shows you working with data that is stored elsewhere or details of your plan to get the data, and a reproducible html which provides a brief description of the data: where you got it, what you have done with it so far and what you plan to do
