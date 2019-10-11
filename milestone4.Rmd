@@ -9,7 +9,7 @@ output: html_document
 
 # default settings
 
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width=6, fig.height=5)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width=7, fig.height=4)
 
 
 # download libraries we need
@@ -126,6 +126,42 @@ brown_county_in %>%
   ) +
   labs(
     title = "Non-White Race in Brown County, Indiana",
+    subtitle = "Data from Census Reporter",
+    x = "Ethnicity",
+    y = "Population"
+  )
+
+
+# lake county ethnicity plot
+
+lake_county_in %>% 
+  ggplot(aes(x = reorder(ethnicity, lake_county_in), y = lake_county_in, fill = race)) + 
+  geom_col() +
+  theme(
+    strip.background = element_blank(),
+    strip.placement = "outside", 
+    axis.text.x = element_text(angle = 90, size = 7, vjust=0.2)
+  ) +
+  labs(
+    title = "Non-White Race in Lake County, Indiana",
+    subtitle = "Data from Census Reporter",
+    x = "Ethnicity",
+    y = "Population"
+  )
+
+
+# vigo county ethnicity plot
+
+vigo_county_in %>% 
+  ggplot(aes(x = reorder(ethnicity, vigo_county_in), y = vigo_county_in, fill = race)) + 
+  geom_col() +
+  theme(
+    strip.background = element_blank(),
+    strip.placement = "outside", 
+    axis.text.x = element_text(angle = 90, size = 7, vjust=0.2)
+  ) +
+  labs(
+    title = "Non-White Race in Vigo County, Indiana",
     subtitle = "Data from Census Reporter",
     x = "Ethnicity",
     y = "Population"
