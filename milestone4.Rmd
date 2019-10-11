@@ -28,12 +28,22 @@ How does Census data on geographic distribution of ethnicity by county in Indian
 This week I went through my data and cleaned it up. It was a lot to clean up, but now I have every county and every subdivision of race provided by census reporter. I also decided to focus on the races: black, white, asian, native american, hispanic, and to leave out pacific islanders.
 
 
-```{r read_data}
+```{r first_plot}
 
 # read table for all races
 
 combined_race  <- read_csv("raw-data/all_races.csv") %>%
   clean_names()
+
+
+# filter data for hamilton county, in only
+
+hamilton_county <- combined_race %>% 
+  select(ethnicity, race, hamilton_county_in) %>% 
+  filter(hamilton_county_in != 0, race != "White") %>% 
+  arrange(desc(hamilton_county_in))
+
+
 
 
 ```
