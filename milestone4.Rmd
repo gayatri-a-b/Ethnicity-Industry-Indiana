@@ -9,7 +9,7 @@ output: html_document
 
 # default settings
 
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width=6, fig.height=5)
 
 
 # download libraries we need
@@ -46,7 +46,7 @@ hamilton_county <- combined_race %>%
 
 # filter data for tippecanoe  county
 
-hamilton_county <- combined_race %>% 
+tippecanoe_county_in <- combined_race %>% 
   select(ethnicity, race, tippecanoe_county_in) %>% 
   filter(tippecanoe_county_in != 0, race != "White") %>% 
   arrange(desc(tippecanoe_county_in))
@@ -54,7 +54,7 @@ hamilton_county <- combined_race %>%
 
 # filter data for brown county
 
-hamilton_county <- combined_race %>% 
+brown_county_in <- combined_race %>% 
   select(ethnicity, race, brown_county_in) %>% 
   filter(brown_county_in != 0, race != "White") %>% 
   arrange(desc(brown_county_in))
@@ -62,7 +62,7 @@ hamilton_county <- combined_race %>%
 
 # filter data for lake county
 
-hamilton_county <- combined_race %>% 
+lake_county_in <- combined_race %>% 
   select(ethnicity, race, lake_county_in) %>% 
   filter(lake_county_in != 0, race != "White") %>% 
   arrange(desc(lake_county_in))
@@ -70,10 +70,65 @@ hamilton_county <- combined_race %>%
 
 # filter data for vigo county
 
-hamilton_county <- combined_race %>% 
+vigo_county_in <- combined_race %>% 
   select(ethnicity, race, vigo_county_in) %>% 
   filter(vigo_county_in != 0, race != "White") %>% 
   arrange(desc(vigo_county_in))
 
+
+# plot for each county
+
+# hamilton county ethnicity plot
+
+hamilton_county %>% 
+  ggplot(aes(x = reorder(ethnicity, hamilton_county_in), y = hamilton_county_in, fill = race)) + 
+  geom_col() +
+  theme(
+    strip.background = element_blank(),
+    strip.placement = "outside", 
+    axis.text.x = element_text(angle = 90, size = 7, vjust=0.2)
+  ) +
+  labs(
+    title = "Non-White Race in Hamilton County, Indiana",
+    subtitle = "Data from Census Reporter",
+    x = "Ethnicity",
+    y = "Population"
+  )
+
+
+# tippecanoe county ethnicity plot
+
+tippecanoe_county_in %>% 
+  ggplot(aes(x = reorder(ethnicity, tippecanoe_county_in), y = tippecanoe_county_in, fill = race)) + 
+  geom_col() +
+  theme(
+    strip.background = element_blank(),
+    strip.placement = "outside", 
+    axis.text.x = element_text(angle = 90, size = 7, vjust=0.2)
+  ) +
+  labs(
+    title = "Non-White Race in Tippecanoe County, Indiana",
+    subtitle = "Data from Census Reporter",
+    x = "Ethnicity",
+    y = "Population"
+  )
+
+
+# brown county ethnicity plot
+
+brown_county_in %>% 
+  ggplot(aes(x = reorder(ethnicity, brown_county_in), y = brown_county_in, fill = race)) + 
+  geom_col() +
+  theme(
+    strip.background = element_blank(),
+    strip.placement = "outside", 
+    axis.text.x = element_text(angle = 90, size = 7, vjust=0.2)
+  ) +
+  labs(
+    title = "Non-White Race in Brown County, Indiana",
+    subtitle = "Data from Census Reporter",
+    x = "Ethnicity",
+    y = "Population"
+  )
 
 ```
