@@ -1,0 +1,39 @@
+---
+title: "Milestone #4"
+author: "Gayatri Balasubramanian"
+date: "10/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+# default settings
+
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+
+# download libraries we need
+
+library(janitor)
+library(tidyverse)
+
+```
+
+### Problem statement
+
+How does Census data on geographic distribution of ethnicity by county in Indiana related to the distribution of industry in Indiana?
+
+### Graph and Progress
+
+This week I went through my data and cleaned it up. It was a lot to clean up, but now I have every county and every subdivision of race provided by census reporter. I also decided to focus on the races: black, white, asian, native american, hispanic, and to leave out pacific islanders.
+
+
+```{r read_data}
+
+# read table for all races
+
+combined_race  <- read_csv("raw-data/all_races.csv") %>%
+  clean_names()
+
+
+```
