@@ -25,7 +25,16 @@ How does Census data on geographic distribution of ethnicity by county in Indian
 
 ### Graph and Progress
 
-This week I went through my data and cleaned it up. It was a lot to clean up, but now I have every county and every subdivision of race provided by census reporter. I also decided to focus on the races: black, white, asian, native american, hispanic, and to leave out pacific islanders.
+This week I went through my data and cleaned it up. It was a lot to clean up, but now I have every county and every subdivision of race provided by census reporter. I also decided to focus on the races: black, white, asian, native american, hispanic, and to leave out pacific islanders.  
+
+What I have plotted below are non-white population data for several counties in Indiana.  
+1. Hamilton County - my hometown  
+2. Tippecanoe County - Purdue University's location  
+3. Brown County - rural and mostly white area  
+4. Lake County - industrial Gary, IN  
+5. Vigo County - Terre Haute, IN  
+
+I wanted to see if my predictions matched the data, and they did. Vigo County was one that I didn't predict, but the other four I did predict.
 
 
 ```{r first_plot}
