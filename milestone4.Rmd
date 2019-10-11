@@ -36,7 +36,7 @@ combined_race  <- read_csv("raw-data/all_races.csv") %>%
   clean_names()
 
 
-# filter data for hamilton county, in only
+# filter data for hamilton county only
 
 hamilton_county <- combined_race %>% 
   select(ethnicity, race, hamilton_county_in) %>% 
@@ -44,6 +44,36 @@ hamilton_county <- combined_race %>%
   arrange(desc(hamilton_county_in))
 
 
+# filter data for tippecanoe  county
+
+hamilton_county <- combined_race %>% 
+  select(ethnicity, race, tippecanoe_county_in) %>% 
+  filter(tippecanoe_county_in != 0, race != "White") %>% 
+  arrange(desc(tippecanoe_county_in))
+
+
+# filter data for brown county
+
+hamilton_county <- combined_race %>% 
+  select(ethnicity, race, brown_county_in) %>% 
+  filter(brown_county_in != 0, race != "White") %>% 
+  arrange(desc(brown_county_in))
+
+
+# filter data for lake county
+
+hamilton_county <- combined_race %>% 
+  select(ethnicity, race, lake_county_in) %>% 
+  filter(lake_county_in != 0, race != "White") %>% 
+  arrange(desc(lake_county_in))
+
+
+# filter data for vigo county
+
+hamilton_county <- combined_race %>% 
+  select(ethnicity, race, vigo_county_in) %>% 
+  filter(vigo_county_in != 0, race != "White") %>% 
+  arrange(desc(vigo_county_in))
 
 
 ```
