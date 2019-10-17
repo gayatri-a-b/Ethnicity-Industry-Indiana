@@ -11,4 +11,4 @@ Create a beautiful ggplot2 graphic which uses some of your data.
 
 
 ## Milestone #5
-Create an Rmd/html which provides a draft of your About page. All of your data processing should be complete. Remember: You must gather data from two or more different sources. Learning how to source, clean and combine data is one of the goals of the project. On almost any topic, there are useful tables of information on Wikipedia. See [here]("https://categitau.com/using-rvest-to-scrape-data-from-wikipedia/") and [here]("https://medium.com/@kyleake/wikipedia-data-scraping-with-r-rvest-in-action-3c419db9af2d") for advice.
+Create an Rmd/html which provides a draft of your About page. All of your data processing should be complete. Remember: You must gather data from two or more different sources. Learning how to source, clean and combine data is one of the goals of the project. On almost any topic, there are useful tables of information on Wikipedia. See [here](https://categitau.com/using-rvest-to-scrape-data-from-wikipedia/) and [here](https://medium.com/@kyleake/wikipedia-data-scraping-with-r-rvest-in-action-3c419db9af2d) for advice.
