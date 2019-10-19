@@ -19,6 +19,8 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width=
 These visualizations are based on two data sets. The first is breakdown of race in each Indiana county provided on [Census Reporter]("https://censusreporter.org/"). The data for detailed race tables per county are given separately per major race group. I aggregated the most popular ethnicities (grouped by county) into one Excel Sheet. Additionally, I obtained a second dataset from copying data about industry by county from [Hoosiers By the Numbers Business Lookup Tool]("http://www.hoosierdata.in.gov/buslookup/BusLookup.aspx").
 
 
+Note: my data for industry I am about 70% done with collecting. It's a lot of copy-paste!
+
 
 ### About Me: Gayatri Balasubramanian
 I am a Harvard undergraduate studying computer science.
