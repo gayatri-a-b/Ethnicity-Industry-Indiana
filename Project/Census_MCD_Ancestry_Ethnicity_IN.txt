@@ -1,0 +1,1399 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: United States Department of Commerce, United States Census Bureau (Data creator)
+      Originator: Linda Zellmer (Data provider)
+      Originator: Indiana University (Data provider)
+      Originator: Indiana Geological Survey (Data processor)
+      Originator: Denver Harper (Data processor)
+      Publication_Date: 20051108
+      Title:
+		CENSUS_MCD_ANCESTRY_ETHNICITY_IN: First Ancestry and Single-Race Ethnicity of Minor Civil
+		Divisions in Indiana in 2000 (United States Census Bureau, 1:500,000, Polygon Shapefile)
+      Geospatial_Data_Presentation_Form: Vector digital data
+      Publication_Information:
+        Publication_Place: Bloomington, Indiana
+        Publisher: Indiana Geological Survey (IGS)
+      Other_Citation_Details:
+        CENSUS_MCD_ANCESTRY_ETHNICITY_IN was derived by joining tabular data obtained from Linda Zellmer, Head,
+		Geology Library, Indiana University, to a preexisting shapefile named "MINOR_CIVIL_DIVISIONS_IN."
+      Online_Linkage: http://igs.indiana.edu/arcims/statewide/download.html
+  Description:
+    Abstract:
+      This file consists of ancestry data (first ancestry reported) for Indiana county subdivisions (legal townships, 
+	  also known as "Minor Civil Divisions") derived from the U.S. Census Bureau's Summary File 3 (SF3) and total 
+	  population, race, and ethnicity data (single race) from the U.S. Census Bureau's Summary File 1 (SF1). 
+
+      The ancestry data are from SF3, table PCT16, First Ancestry Reported. These data are based on questions in the 
+	  population and housing long census questionnaire, also known as the "Sample Data" because they are collected 
+	  from a sample of the population (generally 1-in-6). Ancestry is a person's self-identified heritage, ethnic 
+	  origin, descent, or close identification to an ethnic group. Examples of ancestry groups include Arab, Brazilian, 
+	  Canadian, Czech, Irish, Italian, Russian, Subsaharan African, West Indian, etc.
+
+      The Race and Ethnicity data are derived from SF 1, tables P1, P3 and P4, which is based on questions asked on the 
+	  short Census questionnaire which is sent to the entire population. Race is a person’s self-identified race or 
+	  races with which respondent most closely identifies. The Census Bureau recognizes 5 race classes: White, Black 
+	  or African-American, American Indian or Alaska Native, Asian and Native Hawaiian or other Pacific Islander. The 
+	  Race data used consists of data for people of one race alone. 
+
+      Ethnicity (origin) is the heritage, nationality group, lineage, or country of birth of the person or the person's 
+	  parents or ancestors before their arrival in the United States. People who identified their origin as Spanish, 
+	  Hispanic, or Latino in their answers to the short census questionnaire are reported as Hispanic.
+
+      These data were downloaded from the U.S. Census Bureau’s American Factfinder search engine.
+	  
+    Purpose:
+      CENSUS_MCD_ANCESTRY_ETHNICITY_IN.SHP was developed to allow race, ethnicity, and ancestry for
+	  Indiana county subdivisions (minor civil divisions) to be mapped using ArcGIS.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 2000
+        Ending_Date: 2000
+    Currentness_Reference: Publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -88.0972
+      East_Bounding_Coordinate: -84.6884
+      North_Bounding_Coordinate: 41.7734
+      South_Bounding_Coordinate: 37.7606
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: IGS Metadata Keyword Thesaurus
+      Theme_Keyword: Indiana University (IU)
+	  Theme_Keyword: Geology Library
+	  Theme_Keyword: Indiana Geological Survey (IGS)
+      Theme_Keyword: geographic information system (GIS)
+      Theme_Keyword: United States Department of Commerce
+      Theme_Keyword: United States Census Bureau (USCB)
+      Theme_Keyword: Minor Civil Division (MCD)
+	  Theme_Keyword: County subdivision
+      Theme_Keyword: polygon
+      Theme_Keyword: township
+      Theme_Keyword: civil township
+      Theme_Keyword: ancestry
+      Theme_Keyword: ethnicity
+      Theme_Keyword: race
+      Theme_Keyword: vector
+    Theme:
+      Theme_Keyword_Thesaurus: Geography Network Keyword Thesaurus
+      Theme_Keyword: society
+	  Theme_Keyword: demographics
+    Place:
+      Place_Keyword_Thesaurus: IGS Metadata Keyword Thesaurus
+      Place_Keyword: Indiana
+      Place_Keyword: Adams County
+      Place_Keyword: Allen County
+      Place_Keyword: Bartholomew County
+      Place_Keyword: Benton County
+      Place_Keyword: Blackford County
+      Place_Keyword: Boone County
+      Place_Keyword: Brown County
+      Place_Keyword: Carroll County
+      Place_Keyword: Cass County
+      Place_Keyword: Clark County
+      Place_Keyword: Clay County
+      Place_Keyword: Clinton County
+      Place_Keyword: Crawford County
+      Place_Keyword: Daviess County
+      Place_Keyword: Dearborn County
+      Place_Keyword: Decatur County
+      Place_Keyword: DeKalb County
+      Place_Keyword: Delaware County
+      Place_Keyword: Dubois County
+      Place_Keyword: Elkhart County
+      Place_Keyword: Fayette County
+      Place_Keyword: Floyd County
+      Place_Keyword: Fountain County
+      Place_Keyword: Franklin County
+      Place_Keyword: Fulton County
+      Place_Keyword: Gibson County
+      Place_Keyword: Grant County
+      Place_Keyword: Greene County
+      Place_Keyword: Hamilton County
+      Place_Keyword: Hancock County
+      Place_Keyword: Harrison County
+      Place_Keyword: Hendricks County
+      Place_Keyword: Henry County
+      Place_Keyword: Howard County
+      Place_Keyword: Huntington County
+      Place_Keyword: Jackson County
+      Place_Keyword: Jasper County
+      Place_Keyword: Jay County
+      Place_Keyword: Jefferson County
+      Place_Keyword: Jennings County
+      Place_Keyword: Johnson County
+      Place_Keyword: Knox County
+      Place_Keyword: Kosciusko County
+      Place_Keyword: Lagrange County
+      Place_Keyword: Lake County
+      Place_Keyword: LaPorte County
+      Place_Keyword: Lawrence County
+      Place_Keyword: Madison County
+      Place_Keyword: Marion County
+      Place_Keyword: Marshall County
+      Place_Keyword: Martin County
+      Place_Keyword: Miami County
+      Place_Keyword: Monroe County
+      Place_Keyword: Montgomery County
+      Place_Keyword: Morgan County
+      Place_Keyword: Newton County
+      Place_Keyword: Noble County
+      Place_Keyword: Ohio County
+      Place_Keyword: Orange County
+      Place_Keyword: Owen County
+      Place_Keyword: Parke County
+      Place_Keyword: Perry County
+      Place_Keyword: Pike County
+      Place_Keyword: Porter County
+      Place_Keyword: Posey County
+      Place_Keyword: Pulaski County
+      Place_Keyword: Putnam County
+      Place_Keyword: Randolph County
+      Place_Keyword: Ripley County
+      Place_Keyword: Rush County
+      Place_Keyword: Scott County
+      Place_Keyword: Shelby County
+      Place_Keyword: Spencer County
+      Place_Keyword: St Joseph County
+      Place_Keyword: Starke County
+      Place_Keyword: Steuben County
+      Place_Keyword: Sullivan County
+      Place_Keyword: Switzerland County
+      Place_Keyword: Tippecanoe County
+      Place_Keyword: Tipton County
+      Place_Keyword: Union County
+      Place_Keyword: Vanderburgh County
+      Place_Keyword: Vermillion County
+      Place_Keyword: Vigo County
+      Place_Keyword: Wabash County
+      Place_Keyword: Warren County
+      Place_Keyword: Warrick County
+      Place_Keyword: Washington County
+      Place_Keyword: Wayne County
+      Place_Keyword: Wells County
+      Place_Keyword: White County
+      Place_Keyword: Whitley County
+  Access_Constraints:
+    None.
+  Use_Constraints:
+    DATA DISCLAIMER
+
+    This data set was compiled by the IUB Libraries Geology Library
+    using data believed to be accurate; however, a degree of error
+    is inherent in all data. This product is distributed "AS-IS" without
+    warranties of any kind, either expressed or implied, including but not
+    limited to warranties of suitability of a particular purpose or use. No
+    attempt has been made in either the designed format or production of these data to
+    define the limits or jurisdiction of any federal, state, or local government.
+    These data are intended for use only at the published scale or smaller and are for
+    reference purposes only. They are not to be construed as a legal document or survey
+    instrument. A detailed on-the-ground survey and historical analysis of a single
+    site may differ from this data.
+	
+	This shapefile was compiled by Indiana University, Indiana Geological Survey, using data believed to
+    be accurate; however, a degree of error is inherent in all data. This product is distributed "AS-IS"
+    without warranties of any kind, either expressed or implied, including but not limited to warranties
+    of suitability to a particular purpose or use. No attempt has been made in either the design or
+    production of these data to define the limits or jurisdiction of any federal, state, or local government.
+    These data are intended for use only at the published scale or smaller and are for reference purposes only.
+    They are not to be construed as a legal document or survey instrument. A detailed on-the-ground survey and
+    historical analysis of a single site may differ from these data.
+
+    COPYRIGHT 2005, THE TRUSTEES OF INDIANA UNIVERSITY,
+    INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+    The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying,
+    adaptation, distribution, public performance, or public display of this information without the express written
+    consent of Indiana University, Indiana Geological Survey is discouraged.
+
+    CREDIT
+
+    Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files.
+	
+	It is requested that the Indiana Geological Survey be cited in any products generated from this data. The
+    following source citation should be included: CENSUS_MCD_ANCESTRY_ETHNICITY_IN: First Ancestry and Single-Race Ethnicity of Minor Civil
+    Divisions in Indiana in 2000 (United States Census Bureau, 1:500,000, Polygon Shapefile).
+
+    WARRANTY
+
+    Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be
+    free from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a defect
+    is found, return the media to Publication Sales, Indiana Geological Survey, 611 North Walnut Grove, Bloomington,
+    Indiana 47405 2208, and it will be replaced free of charge.
+
+    LIMITATION OF WARRANTIES AND LIABILITY
+
+    Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or
+    conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+    to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+    user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+    special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+    damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+    for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+    paid by you for the product.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405 2208
+        Country: USA
+      Contact_Voice_Telephone: 812 855 7636
+      Contact_Facsimile_Telephone: 812 855 2862
+      Contact_Electronic_Mail_Address: IGSinfo@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+  Native_Data_Set_Environment: Windows NT operating system; ESRI ArcGIS 8.3 shapefile; approximately 2 Mb
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      No formal metadata in the format of the Federal Geographic Data Committee (FGDC)
+      was provided by the U.S. Census Bureau pertaining to the source data for the shapefile
+      named "MINOR_CIVIL_DIVISIONS_IN." 
+	  
+	  Please see the technical documentation from the Census 2000 Demographics Profiles Web site at
+	   
+	   http://www.census.gov/Press-Release/www/2002/demoprofiles.html 
+	   
+	   and the accuracy report at
+	   
+	   http://www.census.gov/population/pop-profile/2000/appenB.pdf .
+	  
+  Logical_Consistency_Report: No checks for logical consistency were made.
+  Completeness_Report: No information is available regarding the completeness of this data. However, the data were collected 
+  		from a sample of the population (generally 1-in-6).
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        No information was provided by the U.S. Census Bureau pertaining to the horizontal positional accuracy
+        of the source data.
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: The vertical positional accuracy was not a factor in the production of this data.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Census Bureau
+          Publication_Date: 20000101
+          Title: 2000 County Subdivisions
+          Geospatial_Data_Presentation_Form: Vector digital data
+          Publication_Information:
+            Publication_Place: Washington, D.C.
+            Publisher: Department of Commerce, U.S. Census Bureau, Geography Division, Cartographic Operations Branch
+          Other_Citation_Details: This source file can be downloaded at the following URL: http://www.census.gov/geo/www/cob/cs2000.html
+      Source_Scale_Denominator: 500,000
+      Type_of_Source_Media: Zip file containing an ESRI interchange file (E00)
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20000101
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: cs18_d00_e00.zip
+      Source_Contribution: Minor Civil Divisions (MCDs) for Indiana in 2000
+	  
+	Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Linda Zellmer
+          Publication_Date: 20051110
+          Title: Population, Ancestry, Race, and Ethnicity for Indiana County Subdivisions (Townships)
+          Geospatial_Data_Presentation_Form: Tabular digital data
+          Publication_Information:
+            Publication_Place: Bloomington, Indiana
+            Publisher: Geology Library, Indiana University
+          Other_Citation_Details: This source file can be downloaded from American Factfinder.
+      Source_Scale_Denominator: 500,000
+      Type_of_Source_Media: Zip file containing a DBase file (DBF)
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 200004
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: ancestry.dbf
+      Source_Contribution: Population, ancestry, race, and ethnicity for Indiana county subdivisions (townships) in 2000  
+    Process_Step:
+      Process_Description:
+        The file CS18_D00_E00.ZIP was downloaded from the U.S. Census Bureau and unzipped. ESRI ArcToolBox was then used to convert the ESRI interchange
+        file CS18_D00.E00 to an ESRI coverage named "MCD_IN." MCD_IN was then converted to a shapefile named MCD_IN.SHP.
+        ESRI ArcToolBox "Define Projection Wizard" was then used on MCD_IN.SHP to define the projection provided, which was Geographic
+        (Lat/Long) NAD83. ESRI ArcToolBox "Project Wizard" was then used to reproject to UTM Zone 16, NAD83, and the output shapefile
+        was named CENSUS_MCD_ANCESTRY_ETHNICITY_IN.SHP. ESRI ArcMap was then used to edit the shapefile, and the following fields were
+        dropped from the attribute table: "Area," "Perimeter," "MCD_IN_," "MCD_IN_I," "State," "LSAD," and "LSAD_TRANS."
+
+        Two additional edits were made to the attribute table using ESRI ArcMap. Names of Indiana counties were added to a field
+        named "Cnty_Name," using the "Join" function, and the field named "Name" was re-named as "MCD_Name."
+      Source_Used_Citation_Abbreviation: CS18_D00_E00.ZIP
+      Source_Used_Citation_Abbreviation: MCD_IN
+      Source_Used_Citation_Abbreviation: MCD_IN.SHP
+      Source_Produced_Citation_Abbreviation: MINOR_CIVIL_DIVISIONS_IN.SHP
+      Process_Date: 20031222
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist/GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405 2208
+            Country: USA
+          Contact_Voice_Telephone: 812 856 5654
+          Contact_Facsimile_Telephone: 812 855 2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+	Process_Step:
+      Process_Description:
+        Data was downloaded from American Factfinder in Microsoft Excel format and exported
+		to CSV format. ANCESTRY.CSV was then added to ESRI ArcGIS and exported as ANCESTRY.DBF.
+	  Source_Used_Citation_Abbreviation: unknown
+      Source_Used_Citation_Abbreviation: ANCESTRY.CSV
+      Source_Produced_Citation_Abbreviation: ANCESTRY.DBF	
+      Process_Date: 20051104
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana University
+            Contact_Person: Linda Zellmer
+          Contact_Position: Head Librarian, Geology Library
+          Contact_Address:
+            Address_Type: Mailing and physical address
+			Address: Geology Library, Geology 601
+            Address: 1001 East 10th Street
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405 1405
+            Country: USA
+          Contact_Voice_Telephone: 812 855 1494
+          Contact_Facsimile_Telephone: 812 855 6614
+          Contact_Electronic_Mail_Address: libgeol@indiana.edu
+          Hours_of_Service: 0800 to 2200, Monday through Thursday; 0800 to 1700, 
+		    Friday; 1300 to 1700, Saturday; 1300 to 2200, Sunday (Eastern Standard Time)
+          Contact_Instructions: Hours vary during breaks, summer, and holidays	  
+    Process_Step:
+      Process_Description:
+        MINOR_CIVIL_DIVISIONS_IN.SHP was opened in ESRI ArcView 3.3. The table named "ANCESTRY.DBF"
+		was added and joined to MINOR_CIVIL_DIVISIONS_IN.SHP using a common field named
+		"COUSUBFP." A shapefile named "CENSUS_MCD_ANCESTRY_ETHNICITY_IN.SHP" was created by using
+		the "Convert to Shapefile" function.
+	  Source_Used_Citation_Abbreviation: MINOR_CIVIL_DIVISIONS_IN.SHP
+      Source_Used_Citation_Abbreviation: ANCESTRY.DBF
+      Source_Produced_Citation_Abbreviation: CENSUS_MCD_ANCESTRY_ETHNICITY_IN.SHP	
+      Process_Date: 20051111
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Denver Harper
+          Contact_Position: Geologist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405 2208
+            Country: USA
+          Contact_Voice_Telephone: 812 855 1369
+          Contact_Facsimile_Telephone: 812 855 2862
+          Contact_Electronic_Mail_Address: dharper@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+    Process_Step:
+      Process_Description:
+        This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and
+        MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer (United
+        States Geological Survey). The errors generated by MP were all addressed and corrected,
+        except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+      Process_Date: 20051111
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Denver Harper
+          Contact_Position: Geologist/GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405 2208
+            Country: USA
+          Contact_Voice_Telephone: 812 855 1369
+          Contact_Facsimile_Telephone: 812 855 2862
+          Contact_Electronic_Mail_Address: dharper@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: Indiana
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 1011
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 16
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -87.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: Coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution:
+          Ordinate_Resolution:
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: GRS 80
+      Semi-major_Axis: 6378137.0000000
+      Denominator_of_Flattening_Ratio: 298.26
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: CENSUS_MCD_ANCESTRY_ETHNICITY_IN.dbf
+      Entity_Type_Definition: Refers to a person's self-identification of heritage, ethnic origin, descent, or 
+	     close identification to an ethnic group. Selected ancestry groups include Arab, Brazilian, Canadian, Czech, 
+		 Irish, Italian, Russian, Subsaharan African, West Indian, etc. 
+      Entity_Type_Definition_Source: American Factfinder Glossary (http://factfinder.census.gov/) 
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Polygon
+      Attribute_Definition_Source: Software generated
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Software computed
+    Attribute:
+      Attribute_Label: County
+      Attribute_Definition: County code number
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: numeric value
+    Attribute:
+      Attribute_Label: MCD
+      Attribute_Definition: Minor Civil Division number
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 003
+          Range_Domain_Maximum: 105
+    Attribute:
+      Attribute_Label: COUSUBFP
+      Attribute_Definition: 5-digit identification number
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 00172
+          Range_Domain_Maximum: 86048
+    Attribute:
+      Attribute_Label: Cnty_Name
+      Attribute_Definition: Name of county
+      Attribute_Definition_Source: Indiana Geological Survey
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name of county
+	Attribute:
+      Attribute_Label: MCD_Name
+      Attribute_Definition: Name of minor civil division
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name of minor civil division
+    Attribute:
+      Attribute_Label: Total
+      Attribute_Definition: Total population (SF1, P1)
+      Attribute_Definition_Source: U.S. Census Bureau, Summary File 1, Table P1
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 4
+          Range_Domain_Maximum: 167055
+    Attribute:
+      Attribute_Label: Acadian
+      Attribute_Definition: Number of people reporting Acadian as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 26
+    Attribute:
+      Attribute_Label: Afghan
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 70
+	Attribute:
+      Attribute_Label: Africa
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 2634	  
+    Attribute:
+      Attribute_Label: Albania
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 56
+    Attribute:
+      Attribute_Label: Alsatian
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 35
+    Attribute:
+      Attribute_Label: Arab
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 547
+	Attribute:
+      Attribute_Label: Armenia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 111
+	Attribute:
+      Attribute_Label: Assyria
+      Attribute_Definition: Number of people reporting Assyrian/Chaldean/Syriac as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 55
+    Attribute:
+      Attribute_Label: Australia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 80
+    Attribute:
+      Attribute_Label: Austria
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 238
+	Attribute:
+      Attribute_Label: Basque
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 23
+    Attribute:
+      Attribute_Label: Belgium
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 1566
+    Attribute:
+      Attribute_Label: Brazil
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 98
+	Attribute:
+      Attribute_Label: Bulgaria
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 69
+    Attribute:
+      Attribute_Label: Canada
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 203
+	Attribute:
+      Attribute_Label: CapeVerde
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 29	  
+    Attribute:
+      Attribute_Label: CarpRus
+      Attribute_Definition: Number of people reporting Carpatho Russian as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 8
+    Attribute:
+      Attribute_Label: Celtic
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 41
+    Attribute:
+      Attribute_Label: Croatia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 1529
+    Attribute:
+      Attribute_Label: Cyprus
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 35
+    Attribute:
+      Attribute_Label: Czech
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 288
+	Attribute:
+      Attribute_Label: Czchslovk
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 401
+	Attribute:
+      Attribute_Label: Denmark
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 245	  	
+	Attribute:
+      Attribute_Label: Eeurope
+      Attribute_Definition: Number of people reporting Eastern European as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 264	    	  
+    Attribute:
+      Attribute_Label: Egypt
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 185
+    Attribute:
+      Attribute_Label: English
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 9650
+    Attribute:
+      Attribute_Label: Estonia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 36
+	Attribute:
+      Attribute_Label: Ethiopia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 218	  
+    Attribute:
+      Attribute_Label: Europe
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 1874
+    Attribute:
+      Attribute_Label: Finland
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 149
+    Attribute:
+      Attribute_Label: France
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 2233
+    Attribute:
+      Attribute_Label: FrCanada
+      Attribute_Definition: Number of people reporting French Canadian as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 395
+	Attribute:
+      Attribute_Label: Germany
+      Attribute_Definition: Number of people reporting German, Russian German and Pennsylvania German as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 21385
+	Attribute:
+      Attribute_Label: Ghana
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 101	  	  
+	Attribute:
+      Attribute_Label: GrBritain
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 779
+	Attribute:
+      Attribute_Label: Greece
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 1002
+    Attribute:
+      Attribute_Label: Guyana
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 25
+	Attribute:
+      Attribute_Label: Hungary
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 2268
+    Attribute:
+      Attribute_Label: Iceland
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 40
+    Attribute:
+      Attribute_Label: Iran
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 97	  	  	  
+    Attribute:
+      Attribute_Label: Iraq
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 93
+	Attribute:
+      Attribute_Label: Ireland
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 10003
+	Attribute:
+      Attribute_Label: Israel
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 92
+	Attribute:
+      Attribute_Label: Italy
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 4965	  
+	Attribute:
+      Attribute_Label: Jordan
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 85
+	Attribute:
+      Attribute_Label: Kenya
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 65
+	Attribute:
+      Attribute_Label: Latvia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 135	  	  
+    Attribute:
+      Attribute_Label: Lebanon
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 305
+	Attribute:
+      Attribute_Label: Liberia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 86	  
+    Attribute:
+      Attribute_Label: Lithuania
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 527
+    Attribute:
+      Attribute_Label: Luxemburg
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 51
+    Attribute:
+      Attribute_Label: Macedonia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 793
+    Attribute:
+      Attribute_Label: Malta
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 55	  
+    Attribute:
+      Attribute_Label: Morrocco
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 57	  	  
+	Attribute:
+      Attribute_Label: Netherlnd
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 3022
+	Attribute:
+      Attribute_Label: Neurope
+      Attribute_Definition: Number of people reporting Northern European as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 245	  
+	Attribute:
+      Attribute_Label: NewZeal
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 30
+	Attribute:
+      Attribute_Label: Nigeria
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 119	  
+    Attribute:
+      Attribute_Label: Norway
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 798	
+	Attribute:
+      Attribute_Label: OSSAfric
+      Attribute_Definition: Number of people reporting Other Sub-Saharan African as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 110	    	  
+	Attribute:
+      Attribute_Label: OthArab
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 72	  
+    Attribute:
+      Attribute_Label: Palestine
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 113
+	Attribute:
+      Attribute_Label: Poland
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 16913
+    Attribute:
+      Attribute_Label: Portugal
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 111
+    Attribute:
+      Attribute_Label: Romania
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 677
+    Attribute:
+      Attribute_Label: Russia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 1161
+	Attribute:
+      Attribute_Label: Safrica
+      Attribute_Definition: Number of people reporting South African as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 55	  	  
+	Attribute:
+      Attribute_Label: Saudi
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 262	  
+    Attribute:
+      Attribute_Label: Scandnv
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 102
+	Attribute:
+      Attribute_Label: ScotIrish
+      Attribute_Definition: Number of people reporting Scotch-Irish as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 1775
+	Attribute:
+      Attribute_Label: Scotland
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 2035
+	Attribute:
+      Attribute_Label: Senegal
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 8	  
+	Attribute:
+      Attribute_Label: Serbia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 1440
+	Attribute:
+      Attribute_Label: SierrLeon
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 39	  
+	Attribute:
+      Attribute_Label: Slavic
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 123
+    Attribute:
+      Attribute_Label: Slovak
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 4532
+    Attribute:
+      Attribute_Label: Slovenia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 234
+	Attribute:
+      Attribute_Label: Somalia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 32	  
+    Attribute:
+      Attribute_Label: SovUnion
+      Attribute_Definition: Number of people reporting the Soviet Union as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 6
+	Attribute:
+      Attribute_Label: SubAfrica
+      Attribute_Definition: Number of people reporting Sub-Saharan African as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 2640
+	Attribute:
+      Attribute_Label: Sudan
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 22
+	Attribute:
+      Attribute_Label: Sweden
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 1302
+	Attribute:
+      Attribute_Label: Switzrlnd
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 1369	  	  
+	Attribute:
+      Attribute_Label: Syria
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 115
+	Attribute:
+      Attribute_Label: Turkey
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 96	  	  
+    Attribute:
+      Attribute_Label: Uganda
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 19
+	Attribute:
+      Attribute_Label: Ukraine
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 354
+	Attribute:
+      Attribute_Label: Wales
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 745
+	Attribute:
+      Attribute_Label: WestIndes
+      Attribute_Definition: Number of people reporting West Indian as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 336
+	Attribute:
+      Attribute_Label: Yugoslavia
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 344	  	  	  
+    Attribute:
+      Attribute_Label: Zaire
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 18
+    Attribute:
+      Attribute_Label: Zimbabwe
+      Attribute_Definition: Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16
+      Attribute_Definition_Source: Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 18
+	Attribute:
+      Attribute_Label: WHITE
+      Attribute_Definition: Number of people reporting White Race; SF1, Table P3
+      Attribute_Definition_Source: Census Bureau Glossary (http://www.census.gov/main/www/glossary.html)
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 4
+          Range_Domain_Maximum: 118511
+    Attribute:
+      Attribute_Label: HISPANIC
+      Attribute_Definition: Number of people reporting Hispanic Ethnicity; SF1, Table P4
+      Attribute_Definition_Source: Census Bureau Glossary (http://www.census.gov/main/www/glossary.html)
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 38121
+    Attribute:
+      Attribute_Label: BLACK
+      Attribute_Definition: Number of people reporting Black Race; SF1, Table P3
+      Attribute_Definition_Source: Census Bureau Glossary (http://www.census.gov/main/www/glossary.html)
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 88789
+    Attribute:
+      Attribute_Label: AMINDAN
+      Attribute_Definition: Number of people reporting American Indian or Alaska Native Race; SF1, Table P3
+      Attribute_Definition_Source: Census Bureau Glossary (http://www.census.gov/main/www/glossary.html)
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 481
+	Attribute:
+      Attribute_Label: ASIAN
+      Attribute_Definition: Number of people reporting Asian Race; SF1, Table P3
+      Attribute_Definition_Source: Census Bureau Glossary (http://www.census.gov/main/www/glossary.html)
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 5605
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+        Contact_Person: Publication Sales
+      Contact_Position: Clerk
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405 2208
+        Country: USA
+      Contact_Voice_Telephone: 812 855 7636
+      Contact_Facsimile_Telephone: 812 855 2862
+      Contact_Electronic_Mail_Address: IGSinfo@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+
+  Resource_Description: Downloadable data
+
+  Distribution_Liability:
+    COPYRIGHT 2005, THE TRUSTEES OF INDIANA UNIVERSITY,
+    INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+    The information on these media is proprietary to Indiana University,
+    Indiana Geological Survey. Any copying, adaptation, distribution, public
+    performance, or public display of this information without the express
+    written consent of Indiana University, Indiana Geological Survey is
+    discouraged.
+
+    CREDIT
+
+    Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files.
+	
+	It is requested that the Indiana Geological Survey be cited in any products generated from this data. The
+    following source citation should be included: CENSUS_MCD_ANCESTRY_ETHNICITY_IN: First Ancestry and Single-Race 
+	Ethnicity of Minor Civil Divisions in Indiana in 2000 (United States Census Bureau, 1:500,000, Polygon Shapefile).
+
+    WARRANTY
+
+    Indiana University, Indiana Geological Survey warrants that the media on
+    which this product is stored will be free from defect in materials and
+    workmanship for ninety (90) days from the date of acquisition. If such a
+    defect is found, return the media to Publication Sales, Indiana Geological
+    Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it
+    will be replaced free of charge.
+
+    LIMITATION OF WARRANTIES AND LIABILITY
+
+    Except for the expressed warranty above, the product is provided "AS IS",
+    without any other warranties or conditions, expressed or implied,
+    including, but not limited to, warranties for product quality, or
+    suitability to a particular purpose or use. The risk or liability resulting
+    from the use of this product is assumed by the user. Indiana University,
+    Indiana Geological Survey shares no liability with product users indirect,
+    incidental, special, or consequential damages whatsoever, including, but
+    not limited to, loss of revenue or profit, lost or damaged data or other
+    commercial or economic loss. Indiana University, Indiana Geological Survey
+    is not responsible for claims by a third party. The maximum aggregate
+    liability to the original purchaser shall not exceed the amount paid by you
+    for the product.
+Metadata_Reference_Information:
+  Metadata_Date: 20051111
+  Metadata_Review_Date: 20060105
+  Metadata_Contact:
+    Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana University
+            Contact_Person: Linda Zellmer
+          Contact_Position: Head Librarian, Geology Library
+          Contact_Address:
+            Address_Type: Mailing and physical address
+			Address: Geology Library, Geology 601
+            Address: 1001 East 10th Street
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405 1405
+            Country: USA
+          Contact_Voice_Telephone: 812 855 1494
+          Contact_Facsimile_Telephone: 812 855 6614
+          Contact_Electronic_Mail_Address: libgeol@indiana.edu
+          Hours_of_Service: 0800 to 2200, Monday through Thursday; 0800 to 1700, 
+		    Friday; 1300 to 1700, Saturday; 1300 to 2200, Sunday (Eastern Standard Time)
+          Contact_Instructions: Hours vary during breaks, summer, and holidays
+  Metadata_Standard_Name: FGDC-CSDGM
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints:
+    This metadata file is intended to accompany the
+    data set identified and received from the IGS. It is not to be altered or
+    summarized. IGS does not support secondary distribution. If this data
+    set was received from anyone other than the IGS, this metadata file and the
+    data set it describes may lack integrity.
