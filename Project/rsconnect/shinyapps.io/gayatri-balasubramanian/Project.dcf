@@ -5,9 +5,9 @@ account: gayatri-balasubramanian
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1398317
-bundleId: 2614747
+bundleId: 2616672
 url: https://gayatri-balasubramanian.shinyapps.io/Project/
-when: 1574655211.88605
+when: 1574709879.85234
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: tl_2018_18_cousub.shp|tl_2018_18_cousub.shx|untitled.Rmd
+ignoredFiles: untitled.Rmd

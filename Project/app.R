@@ -3,13 +3,14 @@
 
 library(sf)
 library(shiny)
+library(janitor)
 library(markdown)
 library(tidyverse)
 
 
 ## Define UI for application that draws a histogram
 
-ui <- navbarPage("Milestone 8",
+ui <- navbarPage("Final Project",
                  
                  ## About page
                  
