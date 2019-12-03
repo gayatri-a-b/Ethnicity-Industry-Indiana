@@ -352,7 +352,7 @@ server <- function(input, output, session) {
         ggplot(race_shapefile_data) + 
             geom_sf(aes(fill = race_shapefile_data[[ethnicity]])) +
             scale_fill_gradientn(colors = c("#e6ecff", "#3366ff", "#001a66")) +
-            geom_sf(data = oc_data_subset_sf, aes(size = count), color=alpha("#800080",0.4))
+            geom_sf(data = industry_geographic_data, aes(size = count), color=alpha("#800080",0.4))
         
     })
 }
