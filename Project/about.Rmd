@@ -1,15 +1,12 @@
 ### The Data
 
-These visualizations are based on two data sets. The first is breakdown of race in each Indiana county provided on [Census Reporter]("https://censusreporter.org/"). The data for detailed race tables per county are given separately per major race group. I aggregated the most popular ethnicities (grouped by county) into one Excel Sheet. Additionally, I obtained a second dataset from copying data about industry by county from [Hoosiers By the Numbers Business Lookup Tool]("http://www.hoosierdata.in.gov/buslookup/BusLookup.aspx").
-
-
-Note: my data for industry I am about 70% done with collecting. It's a lot of copy-paste!
+These visualizations are based on two data sets. The first is [Indiana Map]("https://maps.indiana.edu/layerGallery.html?category=Ethnicity") which offers the distribution of every possible ethnicity in Indiana at the county subdivision level. The second is [Hoosiers By the Numbers Quartery Census of Employment and Wages]("http://www.hoosierdata.in.gov/dpage.asp?id=25&page_path=&path_id=&menu_level=&panel_number=2&view_number=3").
 
 
 ### About Me: Gayatri Balasubramanian
-I am a Harvard undergraduate studying computer science.
+I am a Harvard undergraduate studying computer science and minoring in government.
 Contact me at gayatrib [at] college [dot] harvard [dot] edu or connect with me on [LinkedIn]("https://www.linkedin.com/in/gayatriabalasubramanian/").
 
 
 ### Source Code
-The source code for this Project can be found at my [GitHub]("https://www.github.com/gayatribalasubramanian/").
+The source code for this Project can be found at my [GitHub]("https://github.com/gayatribalasubramanian/Ethnicity-Industry-Indiana").

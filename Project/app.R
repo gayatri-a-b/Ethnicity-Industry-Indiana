@@ -1,5 +1,9 @@
 ## Gayatri Balasubramanian
 ## GOV 1005 Final Project Shiny Web Application
+## Distribution of Industries and Ethnicities in Indiana
+
+
+## Load in the libraries we need
 
 library(sf)
 library(shiny)
@@ -8,19 +12,29 @@ library(markdown)
 library(tidyverse)
 
 
+
 ## Define UI for application that draws a histogram
 
 ui <- navbarPage("Ethnicity-Industry-Indiana",
                  
                  
-                 ## Plot Ethnicities all of Indiana
+                 ## Plot Tab
+                 ## Gets user input of which ethnicity and which industries to plot
+                 ## Creates the plot
                  
                  tabPanel("Plot",
+                          
                           fluidRow(
+                              
+                              ## On the left hand side of the page get user input
+                              
                               column(3,
-                                  # make a group of radio buttons
+                                  
+                                  ## This is a single select input for ethnicity  
+                                
                                   selectInput("radio", label = h3("Ethnic Descent"),
-                                               choices = list("armenia" = "armenia",
+                                               choices = list(
+                                                 "armenia" = "armenia",
                                                  "assyria" = "assyria",
                                                  "australia" = "australia",
                                                  "austria" = "austria",
@@ -111,10 +125,15 @@ ui <- navbarPage("Ethnicity-Industry-Indiana",
                                                  "black" = "black",
                                                  "amindan" = "amindan",
                                                  "asian" = "asian" 
-                                                 ),
+                                               ),
+                                              
+                                               ## By default we have it set to white
+                                              
                                                selected = "white"),
                                   
-                                  # make a group of checkboxes for industry
+                                  
+                                  ## This is a multiple select input for industries  
+                                  
                                   selectInput("checkGroup", label = h3("Industry"), 
                                                      choices = list(
                                                          "Elec. Equip., App., & Component Mfg" = "Elec. Equip., App., & Component Mfg", 
@@ -221,8 +240,14 @@ ui <- navbarPage("Ethnicity-Industry-Indiana",
                                                          "Wholesale Elec. Markets & Agents & Brokers" = "Wholesale Elec. Markets & Agents & Brokers",
                                                          "Wholesale Trade" = "Wholesale Trade",
                                                          "Wood Product Manufacturing" = "Wood Product Manufacturing"
-                                                        ),
+                                                     ),
+                                              
+                                                     ## By default we have it set to Manufacuring 
+                                                    
                                                      selected = "Manufacturing",
+                                              
+                                                     ## We allow multiple inputs to be selected simultaneously
+                                              
                                                      multiple = TRUE
                                               ),
                                   
@@ -230,75 +255,102 @@ ui <- navbarPage("Ethnicity-Industry-Indiana",
                                   hr(),
                                   fluidRow(column(3, verbatimTextOutput("value")))
                               ),
+                              
+                              
+                              ## On the right hand side of the page we display the plot
+                              
                               column(6,
+                                     
+                                     ## The actual plot creation happens below in the server code
+                                     
                                      plotOutput("distPlot")
                               )
                           )
                  ),
                  
                  
-                 ## About page
+                 ## About Tab
+                 ## Displays some information about the project
                  
                  tabPanel("About",
+                          
+                          ## This calls a separate RMD sheet and just pastes it here
+                          
                           includeMarkdown("about.Rmd")
                  )
                  
 )
 
-# Define server logic required to draw a histogram
 
+
+## Define server logic required to draw a histogram
 
 server <- function(input, output, session) {
-    shape <- st_read("Census_MCD_Ancestry_Ethnicity_IN.shp") %>% 
+    
+    ## Get the data we need for plotting
+    # load in race by county and race for all of Indiana shapefile
+    
+    race_shapefile <- st_read("Census_MCD_Ancestry_Ethnicity_IN.shp") %>% 
         clean_names() %>% 
         drop_na()
     
-    races  <- read_csv("all_races.csv") %>%
-        clean_names() %>% 
-        drop_na()
+    # load in industries in each county csv
     
     industries  <- read_csv("industries.csv") %>%
         clean_names() %>% 
         drop_na()
     
+    # load in lat lng for each country csv
+    
     lat_lng  <- read_csv("lat_lng.csv") %>%
         clean_names() %>% 
         drop_na()
     
+    # merge the lat lng data with industry to get a merged csv
     
-    total <- merge(industries,lat_lng,by="county")
+    industry_merged_with_lat_lng <- merge(industries,lat_lng,by="county")
     
     
-    # convert to sf
-    oc_data <- st_as_sf(
-        shape, 
+    # convert to race shapefile data to sf
+    
+    race_shapefile_data <- st_as_sf(
+        race_shapefile, 
         coords = c("lng", "lat"), 
         crs = 4326
     )
     
     
-    # You can access the values of the widget (as a vector)
-    # with input$checkGroup, e.g.
-    #output$value <- renderPrint({ input$radio })
+    
+    ## Create the distributional plo
     
     output$distPlot <- renderPlot({
-        area <- input$checkGroup
+        
+        ## Read in the R shiny inputs for which industries and race we are plotting
+        
+        industy_areas <- input$checkGroup
         ethnicity <- input$radio
         
-        sub_points <- total %>% 
-            filter(naics_code %in% area) %>% 
+        
+        ## Filter the industry data further
+        # select only the industries the user wanted
+        
+        industry_sub_points <- industry_merged_with_lat_lng %>% 
+            filter(naics_code %in% industy_areas) %>% 
             drop_na()
         
+        # convert to industry data to sf
         
-        # transform tibble to sf data
-        oc_data_subset_sf <- st_as_sf(
-            sub_points, 
+        industry_geographic_data <- st_as_sf(
+            industry_sub_points, 
             coords = c("lng", "lat"),
             crs = 4326
         )
         
-        ggplot(oc_data) + 
-            geom_sf(aes(fill = oc_data[[ethnicity]])) +
+        
+        ## Finally create the plot
+        
+        ggplot(race_shapefile_data) + 
+            geom_sf(aes(fill = race_shapefile_data[[ethnicity]])) +
             scale_fill_gradientn(colors = c("#e6ecff", "#3366ff", "#001a66")) +
             geom_sf(data = oc_data_subset_sf, aes(size = count), color=alpha("#800080",0.4))
         
@@ -306,5 +358,7 @@ server <- function(input, output, session) {
 }
 
 
-# Run the application 
+
+## Run the Shiny application 
+
 shinyApp(ui = ui, server = server)
