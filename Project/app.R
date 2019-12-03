@@ -10,13 +10,7 @@ library(tidyverse)
 
 ## Define UI for application that draws a histogram
 
-ui <- navbarPage("Final Project",
-                 
-                 ## About page
-                 
-                 tabPanel("About",
-                          includeMarkdown("about.Rmd")
-                 ),
+ui <- navbarPage("Ethnicity-Industry-Indiana",
                  
                  
                  ## Plot Ethnicities all of Indiana
@@ -25,7 +19,7 @@ ui <- navbarPage("Final Project",
                           fluidRow(
                               column(3,
                                   # make a group of radio buttons
-                                  radioButtons("radio", label = h3("Ethnic Descent"),
+                                  selectInput("radio", label = h3("Ethnic Descent"),
                                                choices = list("armenia" = "armenia",
                                                  "assyria" = "assyria",
                                                  "australia" = "australia",
@@ -121,7 +115,7 @@ ui <- navbarPage("Final Project",
                                                selected = "white"),
                                   
                                   # make a group of checkboxes for industry
-                                  checkboxGroupInput("checkGroup", label = h3("Industry"), 
+                                  selectInput("checkGroup", label = h3("Industry"), 
                                                      choices = list(
                                                          "Elec. Equip., App., & Component Mfg" = "Elec. Equip., App., & Component Mfg", 
                                                          "Internet Srv. Prov., Web Search Portals, & Data Processing Services" = "Internet Srv. Prov., Web Search Portals, & Data Processing Services", 
@@ -228,7 +222,9 @@ ui <- navbarPage("Final Project",
                                                          "Wholesale Trade" = "Wholesale Trade",
                                                          "Wood Product Manufacturing" = "Wood Product Manufacturing"
                                                         ),
-                                                     selected = "Manufacturing"),
+                                                     selected = "Manufacturing",
+                                                     multiple = TRUE
+                                              ),
                                   
                                   
                                   hr(),
@@ -238,6 +234,13 @@ ui <- navbarPage("Final Project",
                                      plotOutput("distPlot")
                               )
                           )
+                 ),
+                 
+                 
+                 ## About page
+                 
+                 tabPanel("About",
+                          includeMarkdown("about.Rmd")
                  )
                  
 )
@@ -247,25 +250,32 @@ ui <- navbarPage("Final Project",
 
 server <- function(input, output, session) {
     shape <- st_read("Census_MCD_Ancestry_Ethnicity_IN.shp") %>% 
-        clean_names()
+        clean_names() %>% 
+        drop_na()
     
     races  <- read_csv("all_races.csv") %>%
-        clean_names()
+        clean_names() %>% 
+        drop_na()
     
     industries  <- read_csv("industries.csv") %>%
-        clean_names()
+        clean_names() %>% 
+        drop_na()
     
     lat_lng  <- read_csv("lat_lng.csv") %>%
-        clean_names()
+        clean_names() %>% 
+        drop_na()
     
     
     total <- merge(industries,lat_lng,by="county")
     
+    
+    # convert to sf
     oc_data <- st_as_sf(
         shape, 
         coords = c("lng", "lat"), 
         crs = 4326
     )
+    
     
     # You can access the values of the widget (as a vector)
     # with input$checkGroup, e.g.
@@ -276,7 +286,9 @@ server <- function(input, output, session) {
         ethnicity <- input$radio
         
         sub_points <- total %>% 
-            filter(naics_code %in% area)
+            filter(naics_code %in% area) %>% 
+            drop_na()
+        
         
         # transform tibble to sf data
         oc_data_subset_sf <- st_as_sf(
@@ -286,7 +298,7 @@ server <- function(input, output, session) {
         )
         
         ggplot(oc_data) + 
-            geom_sf(aes(fill = white)) +
+            geom_sf(aes(fill = oc_data[[ethnicity]])) +
             scale_fill_gradientn(colors = c("#e6ecff", "#3366ff", "#001a66")) +
             geom_sf(data = oc_data_subset_sf, aes(size = count), color=alpha("#800080",0.4))
         
